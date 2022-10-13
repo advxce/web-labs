@@ -1,0 +1,38 @@
+.th {
+  padding: 5px;
+  margin: 5px;
+  width: 120px;
+}
+.th:first-child {
+  background: rgb(133, 234, 133);
+  width: 20px;
+}
+.tr {
+  background: rgb(55, 219, 208);
+}
+.tr:first-child {
+  background: rgb(133, 234, 133);
+}
+.outer {
+  margin-top: 10px;
+  padding: 2px;
+  display: flex;
+  background: red;
+  width: 50px;
+  align-items: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: 20px;
+}
+.inter {
+  width: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: 15px;
+  background: violet;
+}
+label {
+  position: absolute;
+
+  left: 40px;
+}
